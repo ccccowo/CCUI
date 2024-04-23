@@ -1,21 +1,19 @@
-import { defineConfig} from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base:'/CCUI/',
+  base: '/CCUI/',
   title: "CC-UI",
   description: "基于Vue3",
   // 网页图标
-  head:[
-    ['link',{rel:'icon',href:'../CCUI_logo.png'}]
+  head: [
+    ['link', { rel: 'icon', href: '../CCUI_logo.png' }]
   ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/guide/install'
-      },
-      { text: '组件', link: '/components/Button' 
-    }
+        text: '组件', link: '/components/Button'
+      }
     ],
     sidebar: {
       "/components/": [

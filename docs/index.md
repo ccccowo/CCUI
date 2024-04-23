@@ -5,15 +5,12 @@ layout: home
 hero:
   name: "CC-UI"
   text: "基于Vue3的组件库"
-  tagline: 快快来使用一下吧！ (๑`^´๑)
+  tagline: 点击下方按钮可查看组件详情 (๑`^´๑)
   image:
-    src: ./CCUI_logo.png
-    alt: VitePress
+    src: https://img2.imgtp.com/2024/04/23/UUhPjFEi.png
+    alt: logo
   actions:
     - theme: brand
-      text: 开始使用
-      link: /guide/install
-    - theme: alt
       text: 组件详情
       link: /components/Button
 
