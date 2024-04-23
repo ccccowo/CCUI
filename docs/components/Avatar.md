@@ -1,5 +1,6 @@
 ---
 outline: deep
+next: false
 ---
 
 # Avatar 头像

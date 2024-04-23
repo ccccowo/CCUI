@@ -1,5 +1,6 @@
 ---
 outline: deep
+next: false
 ---
 
 # Menu 菜单

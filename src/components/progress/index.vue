@@ -57,7 +57,7 @@ const init = () => {
     dom.style.backgroundColor = props.color
     dom.style.height = props.height + 'px'
     dom.style.borderRadius = props.height + 'px'
-    console.log(props.textInside)
+    
     const flag = props.textInside
     if (flag == true) {
         let dom1 = wenziRef.value
@@ -100,6 +100,7 @@ watch(() => props, () => {
             font-weight: bold;
             position: absolute;
             right: 10px;
+            line-height: 20px;
         }
     }
 
@@ -108,7 +109,7 @@ watch(() => props, () => {
         font-weight: bold;
         position: absolute;
         top: 0;
-        right: -30px;
+        right: -40px;
     }
 }
 </style>

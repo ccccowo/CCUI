@@ -1,19 +1,21 @@
 import { defineConfig} from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:'/CCUI/',
   title: "CC-UI",
   description: "基于Vue3",
+  // 网页图标
+  head:[
+    ['link',{rel:'icon',href:'../CCUI_logo.png'}]
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       {
         text: '指南', link: '/guide/install'
       },
-      { text: '组件', link: '/components/Button' }
-
+      { text: '组件', link: '/components/Button' 
+    }
     ],
     sidebar: {
       "/components/": [
@@ -132,9 +134,11 @@ export default defineConfig({
         }
       ]
     },
-
+    footer: {
+      message: 'Created by ccccowo ©2024'
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ccccowo/CCUI' }
     ]
   }
 })

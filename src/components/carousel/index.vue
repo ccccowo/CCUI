@@ -219,7 +219,7 @@ watch(() => [props.width, props.height], () => {
 
       .cc-carousel-image {
         img {
-          max-width: auto;
+          max-width: none !important;
         }
 
       }

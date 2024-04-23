@@ -1,5 +1,6 @@
 ---
 outline: deep
+next: false
 ---
 
 # Button 按钮
@@ -39,6 +40,9 @@ outline: deep
     <cc-button circle type="warning">圆</cc-button>
     <cc-button circle type="info">圆</cc-button>
 </cc-space>
+
+
+
 
 ::: details 点击查看代码
 ```vue
@@ -126,6 +130,8 @@ outline: deep
     <cc-button size="large"circle>圆</cc-button>
 ```
 :::
+
+
 
 
 

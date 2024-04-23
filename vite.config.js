@@ -8,7 +8,7 @@ export default defineConfig({
   ],
   build:{
     lib:{
-      entry:'./components/index.js',
+      entry:'./src/components/index.js',
       name: 'cc-ui'
     }
   },

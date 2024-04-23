@@ -1,5 +1,6 @@
 ---
 outline: deep
+next: false
 ---
 
 # Radio 单选框

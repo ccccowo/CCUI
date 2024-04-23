@@ -1,5 +1,6 @@
 ---
 outline: deep
+next: false
 ---
 
 # Carousel 走马灯
