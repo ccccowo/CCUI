@@ -11,6 +11,9 @@ hero:
     alt: logo
   actions:
     - theme: brand
+      text: 开始使用
+      link: /guide/install
+    - theme: alt
       text: 组件详情
       link: /components/Button
 

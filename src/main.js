@@ -1,10 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import CCUI from './components/index'
-console.log(CCUI)
+
+// 全局引入
+// import CCUI from 'ccowo-ui'
+import 'ccowo-ui/dist/style.css'
 
 const app = createApp(App)
 
-app.use(CCUI) 
+// app.use(CCUI)
 
 app.mount('#app')
